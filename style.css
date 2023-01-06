@@ -25,13 +25,10 @@ header {
 }
 
 .boxes {
-  width: 100%;
-  padding: 50px 0;
-}
-
-.boxgroup1 {
+  width: 800px;
+  margin: 50px auto;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .box01 {
@@ -58,11 +55,6 @@ header {
   background-color: #93ffab;
 }
 
-.boxgroup2 {
-  display: flex;
-  justify-content: center;
-}
-
 .box05 {
   width: 200px;
   height: 200px;
@@ -85,11 +77,6 @@ header {
   width: 200px;
   height: 200px;
   background-color: #e4ff8d;
-}
-
-.boxgroup3 {
-  display: flex;
-  justify-content: center;
 }
 
 .box09 {
